@@ -87,40 +87,138 @@
         <section class="section active">
             <div class="about-content">
                 <h2>À propos de moi</h2>
+
+                <div class="about-header">
+                    <p class="about-tagline">Alternant administrateur systèmes &amp; réseaux</p>
+                    <div class="about-badges">
+                        <span class="about-badge"><i class="fas fa-shield-alt"></i>Cybersécurité</span>
+                        <span class="about-badge"><i class="fas fa-network-wired"></i>Réseaux</span>
+                        <span class="about-badge"><i class="fas fa-server"></i>Systèmes</span>
+                        <span class="about-badge"><i class="fas fa-user-graduate"></i>BTS SIO SISR</span>
+                    </div>
+                </div>
                 
                 <div class="about-grid">
                     <div class="about-text">
                         <p class="intro">
-                            Étudiant en BTS SIO option SISR, motivé et disponible dès le 17 novembre pour un stage de 5 semaines. 
-                            Passionné par l'administration système et réseau, mon parcours m'a permis de développer 
-                            des compétences solides en infrastructure IT et en sécurité informatique.
+                            Après la validation de mon BTS SIO option Solutions d'Infrastructure, Systèmes et Réseaux, 
+                            je souhaite poursuivre en bac +3 dans le domaine de la cybersécurité et des réseaux. 
+                            Je recherche une alternance en rythme 1 semaine école / 2 semaines entreprise afin de 
+                            développer mes compétences pratiques tout en apportant une réelle valeur à l'organisation 
+                            qui m'accueillera.
                         </p>
 
-                        <div class="about-details">
-                            <div class="detail-item">
-                                <i class="fas fa-user-graduate"></i>
-                                <div class="detail-text">
-                                    <h3>Formation</h3>
-                                    <p>BTS SIO - Option SISR</p>
+                            <div class="career-branch" aria-label="Parcours Bac vers Master">
+                                <div class="career-branch-head">
+                                    <h3>Mon parcours</h3>
+                                    <p>Cliques sur une étape pour découvrir la suite.</p>
                                 </div>
-                            </div>
 
-                            <div class="detail-item">
-                                <i class="fas fa-bullseye"></i>
-                                <div class="detail-text">
-                                    <h3>Objectif</h3>
-                                    <p>Devenir expert en administration système et réseau</p>
-                                </div>
-                            </div>
+                                <div class="career-rail" aria-hidden="true"></div>
 
-                            <div class="detail-item">
-                                <i class="fas fa-laptop-code"></i>
-                                <div class="detail-text">
-                                    <h3>Spécialisation</h3>
-                                    <p>Infrastructure et Solutions Réseaux</p>
+                                <div class="career-nodes" role="tablist" aria-label="Étapes du parcours">
+                                    <button
+                                        type="button"
+                                        class="career-node"
+                                        role="tab"
+                                        aria-selected="true"
+                                        data-step="bac"
+                                    >
+                                        <span class="career-node-title">Bac</span>
+                                        <span class="career-node-sub">Fondations</span>
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        class="career-node"
+                                        role="tab"
+                                        aria-selected="false"
+                                        data-step="bts"
+                                    >
+                                        <span class="career-node-title">BTS</span>
+                                        <span class="career-node-sub">SISR</span>
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        class="career-node"
+                                        role="tab"
+                                        aria-selected="false"
+                                        data-step="bac3"
+                                    >
+                                        <span class="career-node-title">Bac +3</span>
+                                        <span class="career-node-sub">Cyber / Reseaux</span>
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        class="career-node"
+                                        role="tab"
+                                        aria-selected="false"
+                                        data-step="bac5"
+                                    >
+                                        <span class="career-node-title">Bac +5</span>
+                                        <span class="career-node-sub">Master / Ecole</span>
+                                    </button>
+                                </div>
+
+                                <div class="career-panel" role="region" aria-live="polite">
+                                    <div class="career-panel-step is-active" data-step="bac">
+                                        <h4>Un socle technique et une logique sécurité</h4>
+                                        <p>
+                                            Mon Bac m'a apporté les bases nécessaires pour comprendre les systèmes, les réseaux
+                                            et la rigueur technique. L'objectif : construire une base solide avant de spécialiser.
+                                        </p>
+                                        <ul>
+                                            <li>Bases réseau et bonnes pratiques</li>
+                                            <li>Premières notions d'informatique et de logique</li>
+                                            <li>Orientation progressive vers la cybersécurité</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="career-panel-step" data-step="bts">
+                                        <h4>BTS SIO SISR : infra, exploitation, supervision</h4>
+                                        <p>
+                                            En BTS SIO option SISR, je me suis fortement concentré sur l'administration :
+                                            préparation de postes, services réseau, virtualisation et sécurité opérationnelle,
+                                            avec un rythme d'alternance pour ancrer les compétences dans le concret.
+                                        </p>
+                                        <ul>
+                                            <li>Services réseau : DNS, DHCP, Active Directory</li>
+                                            <li>Infrastructure : LAN/VLAN/WAN, adressage TCP/IP</li>
+                                            <li>Sécurité : mises à jour, sauvegardes, durcissement</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="career-panel-step" data-step="bac3">
+                                        <h4>Licence (ou équivalent) Cybersécurité &amp; Réseaux</h4>
+                                        <p>
+                                            Mon bac +3 vise à approfondir la cybersécurité orientée réseaux : analyse des risques,
+                                            compréhension des mécanismes de défense, et mise en place de solutions pragmatiques
+                                            en contexte d'entreprise.
+                                        </p>
+                                        <ul>
+                                            <li>Approche sécurité : risques, remédiation, bonnes pratiques</li>
+                                            <li>Architecture réseau sécurisée</li>
+                                            <li>Supervision et amélioration continue</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="career-panel-step" data-step="bac5">
+                                        <h4>Master ou école d'ingénieur : spécialisation</h4>
+                                        <p>
+                                            À terme, je souhaite viser un Bac +5 : soit un Master spécialisé dans la cybersécurité
+                                            &amp; les réseaux, soit une école d'ingénieur orientée sécurité. Le but : évoluer vers
+                                            un rôle clé (architecture sécurité, administration avancée, ou ingénierie sécurité).
+                                        </p>
+                                        <ul>
+                                            <li>Spécialisation en sécurité opérationnelle &amp; architecture</li>
+                                            <li>Projets concrets et responsabilités</li>
+                                            <li>Objectif de progression vers un poste d'expertise</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
                         <div class="about-interests">
                             <h3>Centres d'intérêt</h3>
@@ -203,8 +301,8 @@
 
                     <div class="about-quote">
                         <blockquote>
-                            "Passionné par les nouvelles technologies, je cherche constamment à 
-                            approfondir mes connaissances dans le domaine de l'IT."
+                            Passionné par les nouvelles technologies, je cherche constamment à approfondir 
+                            mes connaissances dans le domaine de l'IT et à les mettre au service des utilisateurs.
                         </blockquote>
                     </div>
                 </div>
